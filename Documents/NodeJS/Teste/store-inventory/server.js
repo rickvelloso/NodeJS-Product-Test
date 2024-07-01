@@ -7,11 +7,11 @@ const sequelize = require('./db/config');
 const Pool = require("pg").Pool;
 
 const pool = new Pool({
-  user: "postgres",
+  user: "***",
   host: "localhost",
   port: 5432,
-  database: "postgres",
-  password: "180705",
+  database: "***",
+  password: "****",
 })
 
 require('dotenv').config();
